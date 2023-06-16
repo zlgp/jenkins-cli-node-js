@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-cli-node-js",
+  "version": "1.0.0",
+  "description": "node jenkins",
+  "main": "./bin",
+  "files": [
+    "./lib"
+  ],
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "login": "./bin/index.js",
+    "viewList": "./bin/view-list.js",
+    "viewItem": "./bin/view-item.js",
+    "publish": "./bin/publish.js",
+    "buildList": "./bin/build-list.js",
+    "stopBuild": "./bin/stop-build.js"
+  },
+  "keywords": [
+    "node-jenkins"
+  ],
+  "author": "lgp",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jenkins": "^1.0.2"
+  }
+}

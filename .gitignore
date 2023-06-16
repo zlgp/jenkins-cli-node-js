@@ -1,0 +1,8 @@
+node_modules/
+erdp.serve.config.js
+.vscode/
+.history/
+
+# maven ignore
+target/
+build/
